@@ -1,8 +1,32 @@
-
+$default-font: $lato;
 img{
     max-width: 100%;
 }
 
 html{
     font-size: 10px; // 1 rem
+}
+
+body{
+    font-family: $default-font;
+    font-weight: $font-weight-normal;
+}
+h1{
+    font-size: 6rem;
+    line-height: 8.4rem;
+    letter-spacing: 2rem;
+    color: #FFFFFF;
+}
+h2{
+    font-size: 3rem;
+    line-height: 4.5rem;
+    letter-spacing: 5px;
+    &::after{
+        border: 1px solid $primary;
+        width: 7.4rem;
+        display: block;
+    }
+}
+p{
+    font-weight: $font-weight-light;
 }

@@ -1,2 +1,18 @@
+//LATO//
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400&display=swap');
 
+//font-family: 'Lato', sans-serif;
+$lato: 'Lato', sans-serif;
 
+//BODONI//
+
+@font-face {
+  font-family: 'BodoniSvtyTwoITCTT-Book';
+  src: url('../..//css/fonts/BodoniSvtyTwoITCTT-Book/BodoniSvtyTwoITCTT-Book.eot?#iefix') format('embedded-opentype'),  
+       url('../..//css/fonts/BodoniSvtyTwoITCTT-Book/BodoniSvtyTwoITCTT-Book.woff') format('woff'), 
+       url('../..//css/fonts/BodoniSvtyTwoITCTT-Book/BodoniSvtyTwoITCTT-Book.ttf')  format('truetype'), 
+       url('../..//css/fonts/BodoniSvtyTwoITCTT-Book/BodoniSvtyTwoITCTT-Book.svg#BodoniSvtyTwoITCTT-Book') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+$bodoni: 'BodoniSvtyTwoITCTT-Book';
