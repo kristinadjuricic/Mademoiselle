@@ -1,6 +1,4 @@
 $font-size-base:  1.6rem;
-
-$headings-font-family: $bodoni;
 $gray-900: #1E1E1E;
 $primary: #ECD9D9;
 $link-color: $gray-900;
@@ -42,3 +40,6 @@ $container-max-widths: (
   lg: 960px,
   xl: 1140px
 );
+$navbar-light-color: $gray-900;
+$navbar-light-hover-color: $primary;
+$navbar-light-active-color: $primary;

@@ -11,6 +11,9 @@ body{
     font-family: $default-font;
     font-weight: $font-weight-normal;
 }
+h1,h2,h3,h4,h5,h6{
+    font-family: $bodoni;
+}
 h1{
     font-size: 6rem;
     line-height: 8.4rem;
@@ -22,11 +25,16 @@ h2{
     line-height: 4.5rem;
     letter-spacing: 5px;
     &::after{
-        border: 1px solid $primary;
+        content: '';
+        height: 2px;
         width: 7.4rem;
+        background-color: $primary;
         display: block;
+        margin-top: 11px;
     }
 }
 p{
     font-weight: $font-weight-light;
 }
+
+

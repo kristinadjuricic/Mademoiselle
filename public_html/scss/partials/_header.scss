@@ -1,0 +1,31 @@
+$toggler-bg: $primary;
+header{
+    .navbar-brand{
+        img{
+            width: 196px;
+            height: 25px;
+        }
+    }
+    .navbar-toggler{
+        border: none;
+        span{
+            display: block;
+            width: 30px;
+            height: 3px;
+            margin-bottom: 5px;
+            background-color: $primary;
+            &:last-of-type{
+                margin-bottom: 0;
+            }
+        }
+    }
+    .navbar-nav{
+        .nav-link{
+            font-size: 1.4rem;
+            line-height: 1.7rem;
+            letter-spacing: 1px;
+            text-align: center;
+            padding: 10px;
+        }
+    }
+}
