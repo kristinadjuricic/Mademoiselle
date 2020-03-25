@@ -1,0 +1,25 @@
+
+.lead-section{
+    background-size: cover;
+    background-position: center center;
+    padding: 216px 0 269px;
+    opacity: 0.95;
+}
+@media(min-width:450px){
+    .lead-title{
+        font-size: 5rem;
+        line-height: 6rem;
+    }
+}
+@media(min-width:768px){
+    .lead-title{
+        font-size: 6rem;
+        line-height: 8rem;
+        letter-spacing: 2rem;
+    }
+}
+@media(min-width:992px){
+    .lead-title{
+        letter-spacing: 2.5rem;
+    }
+}

@@ -1,4 +1,4 @@
-$toggler-bg: $primary;
+$background-nav: $primary;
 header{
     .navbar-brand{
         img{
@@ -13,7 +13,7 @@ header{
             width: 30px;
             height: 3px;
             margin-bottom: 5px;
-            background-color: $primary;
+            background-color: $background-nav;
             &:last-of-type{
                 margin-bottom: 0;
             }
@@ -28,7 +28,7 @@ header{
             padding: 10px;
             transition: 0.3s linear;
             &:hover, &.active{
-                background-color: $primary;
+                background-color: $background-nav;
                 color: $gray-900 !important;
             }
         }

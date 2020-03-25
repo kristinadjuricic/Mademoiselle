@@ -12447,9 +12447,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-size: 6rem;
-  line-height: 8.4rem;
-  letter-spacing: 2rem;
+  font-size: 3.5rem;
+  line-height: 5rem;
+  letter-spacing: 1rem;
   color: #FFFFFF;
 }
 
@@ -12531,6 +12531,34 @@ header .navbar-nav .nav-link:hover, header .navbar-nav .nav-link.active {
 @media (min-width: 1200px) {
   header .navbar-nav .nav-item {
     margin-left: 7.2rem;
+  }
+}
+
+.lead-section {
+  background-size: cover;
+  background-position: center center;
+  padding: 216px 0 269px;
+  opacity: 0.95;
+}
+
+@media (min-width: 450px) {
+  .lead-title {
+    font-size: 5rem;
+    line-height: 6rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .lead-title {
+    font-size: 6rem;
+    line-height: 8rem;
+    letter-spacing: 2rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .lead-title {
+    letter-spacing: 2.5rem;
   }
 }
 
