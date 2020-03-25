@@ -26,6 +26,47 @@ header{
             letter-spacing: 1px;
             text-align: center;
             padding: 10px;
+            transition: 0.3s linear;
+            &:hover, &.active{
+                background-color: $primary;
+                color: $gray-900 !important;
+            }
+        }
+    }
+}
+@media(min-width:768px){
+    header{
+        .nav-item{
+            margin-left: 2.5rem;
+            .nav-link{
+                border-bottom: 1px solid transparent;
+                padding: 6px;
+                &:hover, &.active{
+                    background-color: transparent;
+                   border-bottom: 1px solid $primary; 
+                   color: $gray-900 !important;
+                }
+            }
+        }
+    }
+}
+
+@media(min-width:992px){
+    header{
+        .navbar-nav{
+            .nav-item{
+                margin-left: 5rem;
+            }
+        }
+    }
+}
+
+@media(min-width:1200px){
+    header{
+        .navbar-nav{
+            .nav-item{
+                margin-left: 7.2rem;
+            }
         }
     }
 }
