@@ -12562,4 +12562,31 @@ header .navbar-nav .nav-link:hover, header .navbar-nav .nav-link.active {
   }
 }
 
+.blog-item .blog-content {
+  width: 313px;
+  height: 161px;
+  top: 164px;
+  left: 28px;
+  right: 25px;
+  transform: translate 50%;
+  background-color: #fff;
+}
+
+.blog-item .blog-content .blog-date {
+  font-family: "BodoniSvtyTwoITCTT-Book";
+  font-style: italic;
+  font-size: 1.4rem;
+  line-height: 1.7rem;
+  letter-spacing: 1px;
+  font-weight: 300;
+}
+
+.blog-item .blog-content .blog-title {
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  font-weight: 400;
+  height: 2rem;
+  overflow: hidden;
+}
+
 /*# sourceMappingURL=theme.css.map */
