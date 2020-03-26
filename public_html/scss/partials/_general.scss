@@ -24,9 +24,10 @@ h2{
     font-size: 3rem;
     line-height: 4.5rem;
     letter-spacing: 5px;
+    margin-bottom: 45px;
     &::after{
         content: '';
-        height: 2px;
+        height: 1px;
         width: 7.4rem;
         background-color: $primary;
         display: block;

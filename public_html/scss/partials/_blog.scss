@@ -1,11 +1,14 @@
+
+.blog{
+    padding: 75px 0 56px;
+}
 .blog-item{
     .blog-content{
         width: 313px;
         height: 161px;
         top: 164px;
-        left: 28px;
+        left: 29px;
         right: 25px;
-        transform: translate 50%;
         background-color: $white;
         .blog-date{
             font-family: $bodoni;
@@ -18,9 +21,10 @@
         .blog-title{
             font-size: 1.6rem;
             line-height: 2.4rem;
-            font-weight: $font-weight-normal;
-            height: 2rem;
+            height: 2.4rem;
             overflow: hidden;
+            font-weight: $font-weight-normal;
+            padding: 0px 19px 50px 18px;
         }
     }
 }

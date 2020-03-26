@@ -12457,11 +12457,12 @@ h2 {
   font-size: 3rem;
   line-height: 4.5rem;
   letter-spacing: 5px;
+  margin-bottom: 45px;
 }
 
 h2::after {
   content: '';
-  height: 2px;
+  height: 1px;
   width: 7.4rem;
   background-color: #ECD9D9;
   display: block;
@@ -12562,13 +12563,16 @@ header .navbar-nav .nav-link:hover, header .navbar-nav .nav-link.active {
   }
 }
 
+.blog {
+  padding: 75px 0 56px;
+}
+
 .blog-item .blog-content {
   width: 313px;
   height: 161px;
   top: 164px;
-  left: 28px;
+  left: 29px;
   right: 25px;
-  transform: translate 50%;
   background-color: #fff;
 }
 
@@ -12584,9 +12588,10 @@ header .navbar-nav .nav-link:hover, header .navbar-nav .nav-link.active {
 .blog-item .blog-content .blog-title {
   font-size: 1.6rem;
   line-height: 2.4rem;
-  font-weight: 400;
-  height: 2rem;
+  height: 2.4rem;
   overflow: hidden;
+  font-weight: 400;
+  padding: 0px 19px 50px 18px;
 }
 
 /*# sourceMappingURL=theme.css.map */
