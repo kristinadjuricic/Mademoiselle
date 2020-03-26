@@ -12568,11 +12568,11 @@ header .navbar-nav .nav-link:hover, header .navbar-nav .nav-link.active {
 }
 
 .blog-item .blog-content {
-  width: 313px;
-  height: 161px;
-  top: 164px;
-  left: 29px;
-  right: 25px;
+  width: 80%;
+  bottom: 0%;
+  top: 65%;
+  left: 10%;
+  right: 10%;
   background-color: #fff;
 }
 
@@ -12592,6 +12592,38 @@ header .navbar-nav .nav-link:hover, header .navbar-nav .nav-link.active {
   overflow: hidden;
   font-weight: 400;
   padding: 0px 19px 50px 18px;
+}
+
+.services-item:nth-of-type(even) .services-content {
+  background-color: #ECD9D9;
+}
+
+.services-title {
+  font-size: 3.6rem;
+  line-height: 4.4rem;
+  font-family: "BodoniSvtyTwoITCTT-Book";
+}
+
+.services-content {
+  background-color: #F5F5F5;
+  padding: 143px 95px 95px 95px;
+}
+
+.services-content a {
+  font-size: 1.4rem;
+  line-height: 1.7rem;
+  letter-spacing: 0.5px;
+  border: 1px solid #1E1E1E;
+}
+
+.services-content a:hover {
+  background-color: #ECD9D9;
+}
+
+@media (min-width: 768px) {
+  .services-item:nth-of-type(odd) div:nth-of-type(even) {
+    order: -1;
+  }
 }
 
 /*# sourceMappingURL=theme.css.map */
