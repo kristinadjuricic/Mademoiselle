@@ -1,0 +1,35 @@
+.team-section{
+    padding: 54px 0 67px;
+}
+.team-member{
+    border: 1px solid $primary;
+    padding: 54px 0;
+    .team-bio{
+        .team-name{
+            font-size: 3rem;
+            line-height: 2.7rem;
+            font-weight: $font-weight-normal;
+        }
+        .team-content{
+            font-size: 1.6rem;
+            line-height: 2.3rem;
+        }
+    }
+}
+.team-slider{
+    position: relative;
+    .owl-dots{
+        position: absolute;
+        bottom: 2%;
+        right: 40%;
+    }
+}
+@media(min-width:992px){
+.team-slider{
+    .owl-dots{
+        bottom: 12%;
+        right: 35%;
+    }
+}
+}
+

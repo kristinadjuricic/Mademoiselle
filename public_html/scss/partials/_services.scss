@@ -1,3 +1,7 @@
+.services{
+    padding-bottom: 111px;
+}
+
 .services-item:nth-of-type(even){
     div{
         &:nth-of-type(even){
@@ -6,7 +10,7 @@
         .services-content{
             a{
                 &:hover{
-                    background-color: #F5F5F5;
+                    background-color: $light;
                 }
             }
         }
@@ -15,7 +19,7 @@
 .services-item:nth-of-type(odd){
     div{
         &:nth-of-type(odd){
-            background-color: #F5F5F5;
+            background-color: $light;
         }
     }
 }
