@@ -12569,8 +12569,7 @@ header .navbar-nav .nav-link:hover, header .navbar-nav .nav-link.active {
 
 .blog-item .blog-content {
   width: 80%;
-  bottom: 0%;
-  top: 65%;
+  bottom: 1%;
   left: 10%;
   right: 10%;
   background-color: #fff;
