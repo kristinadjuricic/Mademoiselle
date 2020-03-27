@@ -12683,4 +12683,19 @@ header .navbar-nav .nav-link:hover, header .navbar-nav .nav-link.active {
   }
 }
 
+footer .social {
+  font-size: 2.3rem;
+}
+
+footer .social .fab {
+  margin-left: 3.3rem;
+}
+
+footer .copyright {
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 4.1rem;
+  letter-spacing: -0.17px;
+}
+
 /*# sourceMappingURL=theme.css.map */
