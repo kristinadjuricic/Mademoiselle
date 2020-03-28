@@ -1,0 +1,42 @@
+.about{
+    padding: 91px 0 78px;
+    .about-title{
+        font-size: 4.4rem;
+        line-height: 5rem;
+        font-family: $lato;
+    }
+    .introduction{
+        font-size: 2rem;
+        line-height: 2.8rem;
+        margin-bottom: 5rem;
+    }
+    .about-content{
+        font-size: 1.8rem;
+        line-height: 2.6rem;
+    }
+    .about-img{
+        margin-bottom: 6.6rem;
+    }
+}
+.about{
+    .blog-item{
+        margin-bottom: 100px;
+    }
+}
+.search{
+    .form-control{
+        border: 1px solid $gray-900;
+        padding: 2.5rem;
+        color: $gray-900;
+        border-radius: 0px;
+        background-image: url('../..//img/about/search.png');
+        background-repeat: no-repeat;
+        background-position: center right;
+        &::placeholder{
+            color: $gray-900;
+            font-style: italic;
+            font-family: $bodoni;
+        }
+    }
+}
+

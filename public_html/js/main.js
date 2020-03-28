@@ -31,14 +31,9 @@ $(document).ready(function () {
     
     if($('.team-slider').length > 0){
         $('.team-slider').owlCarousel({
+            items: 1,
             autoplay: true,
-            loop:true,
-            
-            responsive:{
-                0:{
-                    items: 1
-                }
-            }
+            loop:true
         });
     }
 
