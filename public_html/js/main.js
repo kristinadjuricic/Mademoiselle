@@ -17,7 +17,7 @@ $(document).ready(function () {
             let position = $(this).offset().top;
             let animation = $(this).attr('data-animation');
             let delay = $(this).attr('data-delay');
-            if (position < scroll + windowHeight - 100) {
+            if (position < scroll + windowHeight - 80) {
                 $(this).css('animation-delay', delay);
                 $(this).addClass(animation);
             }

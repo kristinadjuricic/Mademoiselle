@@ -1,7 +1,6 @@
 .services{
-    padding-bottom: 111px;
+    padding: 54px 0 50px;
 }
-
 .services-item:nth-of-type(even){
     div{
         &:nth-of-type(even){
@@ -23,14 +22,13 @@
         }
     }
 }
-
 .services-title{
     font-size: 3rem;
     line-height: 4.4rem;
     font-family: $bodoni;
 }
 .services-content{
-   padding: 110px 50px 50px 50px;
+    padding: 110px 50px 50px 50px;
     a{
         font-size: 1.4rem;
         line-height: 1.7rem;
@@ -41,7 +39,6 @@
         }
     }
 }
-
 
 @media(min-width:992px){
     .services-item:nth-of-type(odd){
