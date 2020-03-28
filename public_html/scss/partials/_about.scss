@@ -26,17 +26,28 @@
 .search{
     .form-control{
         border: 1px solid $gray-900;
+        border-right: none;
         padding: 3rem 2.5rem;
         color: $gray-900;
         border-radius: 0px;
-        background-image: url('../..//img/about/search.png');
-        background-repeat: no-repeat;
-        background-position: center right;
         &::placeholder{
             color: $gray-900;
             font-style: italic;
             font-family: $bodoni;
         }
+    }
+}
+
+.input-group-append{
+    .btn-outline-primary{
+        color: $gray-900;
+        border-color: $gray-900;
+        border-left: none;
+        padding: 0 2rem;
+        border-radius: 0px;
+    }
+    img{
+        max-width: 2rem;
     }
 }
 

@@ -12756,18 +12756,28 @@ header .navbar-nav .nav-link:hover, header .navbar-nav .nav-link.active {
 
 .search .form-control {
   border: 1px solid #1E1E1E;
+  border-right: none;
   padding: 3rem 2.5rem;
   color: #1E1E1E;
   border-radius: 0px;
-  background-image: url("../..//img/about/search.png");
-  background-repeat: no-repeat;
-  background-position: center right;
 }
 
 .search .form-control::placeholder {
   color: #1E1E1E;
   font-style: italic;
   font-family: "BodoniSvtyTwoITCTT-Book";
+}
+
+.input-group-append .btn-outline-primary {
+  color: #1E1E1E;
+  border-color: #1E1E1E;
+  border-left: none;
+  padding: 0 2rem;
+  border-radius: 0px;
+}
+
+.input-group-append img {
+  max-width: 2rem;
 }
 
 footer .social {
