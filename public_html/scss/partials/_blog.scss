@@ -3,12 +3,12 @@
     padding: 75px 0 54px;
 }
 .blog-item{
+    margin-bottom: 100px;
     .blog-content{
-        width: 80%;
-        bottom: 0%;
-        top: 70%;
-        left: 10%;
-        right: 10%;
+        width: 90%;
+        left: 5%;
+        right: 5%;
+        margin-top: -80px;
         background-color: $white;
         .blog-date{
             font-family: $bodoni;
@@ -34,9 +34,5 @@
         opacity: 0.75;
     }
 }
-@media(min-width:1200px){
-    .blog-content{
-        top:70%;
-    }
-}
+
 

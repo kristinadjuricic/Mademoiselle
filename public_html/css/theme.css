@@ -12595,12 +12595,15 @@ header .navbar-nav .nav-link:hover, header .navbar-nav .nav-link.active {
   padding: 75px 0 54px;
 }
 
+.blog-item {
+  margin-bottom: 100px;
+}
+
 .blog-item .blog-content {
-  width: 80%;
-  bottom: 0%;
-  top: 70%;
-  left: 10%;
-  right: 10%;
+  width: 90%;
+  left: 5%;
+  right: 5%;
+  margin-top: -80px;
   background-color: #fff;
 }
 
@@ -12630,14 +12633,8 @@ header .navbar-nav .nav-link:hover, header .navbar-nav .nav-link.active {
   opacity: 0.75;
 }
 
-@media (min-width: 1200px) {
-  .blog-content {
-    top: 70%;
-  }
-}
-
 .services {
-  padding: 54px 0 50px;
+  padding-bottom: 50px;
 }
 
 .services-item:nth-of-type(even) div:nth-of-type(even) {
@@ -12748,10 +12745,6 @@ header .navbar-nav .nav-link:hover, header .navbar-nav .nav-link.active {
 
 .about .about-img {
   margin-bottom: 6.6rem;
-}
-
-.about .blog-item {
-  margin-bottom: 100px;
 }
 
 .search .form-control {
