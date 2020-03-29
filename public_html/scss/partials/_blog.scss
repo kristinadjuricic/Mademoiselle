@@ -34,5 +34,19 @@
         opacity: 0.75;
     }
 }
+.pagination{
+    .page-item{
+        font-family: $bodoni;
+        line-height: 2.4rem;
+        .page-link{
+            border: none;
+            padding: 1rem 1rem;
+            &:hover{
+                background-color: $primary;
+                color: $gray-900;
+            }
+        }
+    }
+}
 
 

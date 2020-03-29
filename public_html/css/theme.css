@@ -12633,6 +12633,21 @@ header .navbar-nav .nav-link:hover, header .navbar-nav .nav-link.active {
   opacity: 0.75;
 }
 
+.pagination .page-item {
+  font-family: "BodoniSvtyTwoITCTT-Book";
+  line-height: 2.4rem;
+}
+
+.pagination .page-item .page-link {
+  border: none;
+  padding: 1rem 1rem;
+}
+
+.pagination .page-item .page-link:hover {
+  background-color: #ECD9D9;
+  color: #1E1E1E;
+}
+
 .services {
   padding-bottom: 50px;
 }
