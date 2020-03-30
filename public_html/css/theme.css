@@ -12747,10 +12747,9 @@ header .navbar-nav .nav-link:hover, header .navbar-nav .nav-link.active {
   font-family: "Lato", sans-serif;
 }
 
-.about .introduction {
+.about .lead-intro {
   font-size: 2rem;
   line-height: 2.8rem;
-  margin-bottom: 5rem;
 }
 
 .about .about-content {
@@ -12786,6 +12785,84 @@ header .navbar-nav .nav-link:hover, header .navbar-nav .nav-link.active {
 
 .input-group-append img {
   max-width: 2rem;
+}
+
+.single-blog-header {
+  padding: 40px 0 57px;
+}
+
+.single-blog-header .breadcrumb {
+  background-color: transparent;
+  font-size: 1.4rem;
+  line-height: 1.7rem;
+  letter-spacing: 1px;
+  font-family: "BodoniSvtyTwoITCTT-Book";
+}
+
+.single-blog-header .breadcrumb .breadcrumb-item + .breadcrumb-item::before {
+  color: #1E1E1E;
+  content: '|';
+  padding-right: 1rem;
+}
+
+.single-blog-header .breadcrumb .breadcrumb-item + .breadcrumb-item {
+  padding-left: 0.75rem;
+}
+
+.single-blog-header .breadcrumb .breadcrumb-item {
+  font-style: italic;
+}
+
+.single-blog-header .breadcrumb .breadcrumb-item.active {
+  font-weight: bold;
+  font-style: normal;
+}
+
+.single-blog-header .blog-intro .blog-title {
+  font-size: 3.6rem;
+  line-height: 4rem;
+  font-weight: 400;
+}
+
+.single-blog-header .blog-intro .news-intro {
+  font-size: 2rem;
+  line-height: 2.8rem;
+}
+
+.single-blog-content .news-content {
+  font-size: 1.8rem;
+  line-height: 2.6rem;
+  text-align: justify;
+  margin-bottom: 3rem;
+}
+
+.tags {
+  padding: 20px 0 270px;
+}
+
+.tags h6 {
+  line-height: 2.7rem;
+  font-style: italic;
+}
+
+.tags .badge {
+  font-family: "BodoniSvtyTwoITCTT-Book";
+  font-size: 1.6rem;
+  line-height: 2.7rem;
+  border-radius: 0px;
+  padding: .5rem 2.5rem;
+  font-weight: 400;
+  margin-left: 1rem;
+}
+
+@media (min-width: 992px) {
+  .single-blog-header {
+    padding: 169px 0 97px;
+  }
+  .blog-intro .blog-title {
+    font-size: 4.4rem;
+    line-height: 5rem;
+  }
 }
 
 footer .social {
