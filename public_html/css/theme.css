@@ -12852,7 +12852,7 @@ header .navbar-nav .nav-link:hover, header .navbar-nav .nav-link.active {
   border-radius: 0px;
   padding: .5rem 2.5rem;
   font-weight: 400;
-  margin-left: 1rem;
+  margin-right: 1rem;
 }
 
 @media (min-width: 992px) {
