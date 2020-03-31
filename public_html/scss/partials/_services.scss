@@ -1,15 +1,17 @@
+$services-even-bg: #ECD9D9;
+$services-odd-bg: #F5F5F5;
 .services{
     padding-bottom: 50px;
 }
 .services-item:nth-of-type(even){
     div{
         &:nth-of-type(even){
-            background-color: $primary;
+            background-color: $services-even-bg;
         }
         .services-content{
             a{
                 &:hover{
-                    background-color: $light;
+                    background-color: $services-odd-bg;
                 }
             }
         }
@@ -18,7 +20,7 @@
 .services-item:nth-of-type(odd){
     div{
         &:nth-of-type(odd){
-            background-color: $light;
+            background-color: $services-odd-bg;
         }
     }
 }
@@ -26,18 +28,10 @@
     font-size: 3rem;
     line-height: 4.4rem;
     font-family: $bodoni;
+    margin-bottom: 3.5rem;
 }
 .services-content{
     padding: 110px 50px 50px 50px;
-    a{
-        font-size: 1.4rem;
-        line-height: 1.7rem;
-        letter-spacing: 0.5px;
-        border: 1px solid $gray-900;
-        &:hover{
-            background-color: $primary;
-        }
-    }
 }
 
 @media(min-width:992px){

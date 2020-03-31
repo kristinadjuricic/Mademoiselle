@@ -1,0 +1,35 @@
+.contact-form-section{
+    padding: 45px 0 70px;
+    .contact-title{
+        font-size: 3rem;
+        line-height: 4.5rem;
+        letter-spacing: 5px;
+    }
+    .form-control{
+        border: none;
+        background-color: rgba(#253D61, 0.02);
+        padding: 1.2rem 2rem;
+        height: auto;
+        &::placeholder{
+            font-weight: $font-weight-light;
+            font-size: 1.4rem;
+            line-height: 2.5rem;
+            letter-spacing: -0.23px;
+            color: $gray-900;
+        }
+    }
+}
+@media(min-width:992px){
+    .contact-form-section{
+        padding: 102px 0 110px;
+    }
+}
+.section-info{
+    padding: 6.3rem 0 6rem;
+    margin-bottom: 8rem;
+    p{
+        font-size: 2.4rem;
+        line-height: 2.5rem;
+        margin-bottom: 1.5rem;
+    }
+}

@@ -37,6 +37,24 @@ h2{
 p{
     font-weight: $font-weight-light;
 }
+.blog-title{
+    font-size: 3.6rem;
+    line-height: 4rem;
+    font-family: $lato;
+    margin-bottom: 2.5rem;
+    font-weight: $font-weight-normal;
+}
+.btn-general{
+    font-size: 1.4rem;
+    line-height: 1.7rem;
+    letter-spacing: 0.5px;
+    border-radius: 0px;
+    border: 1px solid $gray-900;
+    &:hover{
+        background-color: $primary;
+    }
+}
+
 
 
 

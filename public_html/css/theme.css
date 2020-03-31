@@ -12450,6 +12450,33 @@ a.text-dark:hover, a.text-dark:focus {
   transform: translateY(-8px);
 }
 
+/* Grow Shadow */
+.hvr-grow-shadow {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  -o-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: box-shadow, transform;
+  -webkit-transition-property: -webkit-box-shadow, -webkit-transform;
+  transition-property: -webkit-box-shadow, -webkit-transform;
+  -o-transition-property: box-shadow, transform;
+  transition-property: box-shadow, transform;
+  transition-property: box-shadow, transform, -webkit-box-shadow, -webkit-transform;
+}
+
+.hvr-grow-shadow:hover, .hvr-grow-shadow:focus, .hvr-grow-shadow:active {
+  -webkit-box-shadow: 0 10px 10px -10px rgba(31, 219, 132, 0.5);
+  box-shadow: 0 10px 10px -10px rgba(31, 219, 132, 0.5);
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
 @font-face {
   font-family: 'BodoniSvtyTwoITCTT-Book';
   src: url("fonts/BodoniSvtyTwoITCTT-Book/BodoniSvtyTwoITCTT-Book.eot?#iefix") format("embedded-opentype"), url("fonts/BodoniSvtyTwoITCTT-Book/BodoniSvtyTwoITCTT-Book.woff") format("woff"), url("fonts/BodoniSvtyTwoITCTT-Book/BodoniSvtyTwoITCTT-Book.ttf") format("truetype"), url("fonts/BodoniSvtyTwoITCTT-Book/BodoniSvtyTwoITCTT-Book.svg#BodoniSvtyTwoITCTT-Book") format("svg");
@@ -12499,6 +12526,26 @@ h2::after {
 
 p {
   font-weight: 300;
+}
+
+.blog-title {
+  font-size: 3.6rem;
+  line-height: 4rem;
+  font-family: "Lato", sans-serif;
+  margin-bottom: 2.5rem;
+  font-weight: 400;
+}
+
+.btn-general {
+  font-size: 1.4rem;
+  line-height: 1.7rem;
+  letter-spacing: 0.5px;
+  border-radius: 0px;
+  border: 1px solid #1E1E1E;
+}
+
+.btn-general:hover {
+  background-color: #ECD9D9;
 }
 
 header .navbar-brand img {
@@ -12668,21 +12715,11 @@ header .navbar-nav .nav-link:hover, header .navbar-nav .nav-link.active {
   font-size: 3rem;
   line-height: 4.4rem;
   font-family: "BodoniSvtyTwoITCTT-Book";
+  margin-bottom: 3.5rem;
 }
 
 .services-content {
   padding: 110px 50px 50px 50px;
-}
-
-.services-content a {
-  font-size: 1.4rem;
-  line-height: 1.7rem;
-  letter-spacing: 0.5px;
-  border: 1px solid #1E1E1E;
-}
-
-.services-content a:hover {
-  background-color: #ECD9D9;
 }
 
 @media (min-width: 992px) {
@@ -12764,9 +12801,10 @@ header .navbar-nav .nav-link:hover, header .navbar-nav .nav-link.active {
 .search .form-control {
   border: 1px solid #1E1E1E;
   border-right: none;
-  padding: 3rem 2.5rem;
+  padding: 2rem;
   color: #1E1E1E;
   border-radius: 0px;
+  height: auto;
 }
 
 .search .form-control::placeholder {
@@ -12791,7 +12829,7 @@ header .navbar-nav .nav-link:hover, header .navbar-nav .nav-link.active {
   padding: 40px 0 57px;
 }
 
-.single-blog-header .breadcrumb {
+.single-blog-header .blog-publishing {
   background-color: transparent;
   font-size: 1.4rem;
   line-height: 1.7rem;
@@ -12799,30 +12837,14 @@ header .navbar-nav .nav-link:hover, header .navbar-nav .nav-link.active {
   font-family: "BodoniSvtyTwoITCTT-Book";
 }
 
-.single-blog-header .breadcrumb .breadcrumb-item + .breadcrumb-item::before {
-  color: #1E1E1E;
-  content: '|';
-  padding-right: 1rem;
-}
-
-.single-blog-header .breadcrumb .breadcrumb-item + .breadcrumb-item {
-  padding-left: 0.75rem;
-}
-
-.single-blog-header .breadcrumb .breadcrumb-item {
-  font-style: italic;
-}
-
-.single-blog-header .breadcrumb .breadcrumb-item.active {
+.single-blog-header .blog-publishing .blog-category {
   font-weight: bold;
-  font-style: normal;
+  margin-right: 1rem;
 }
 
-.single-blog-header .blog-intro .blog-title {
-  font-size: 3.6rem;
-  line-height: 4rem;
-  font-family: "Lato", sans-serif;
-  font-weight: 400;
+.single-blog-header .blog-publishing .blog-date-published {
+  font-style: italic;
+  margin-left: 1rem;
 }
 
 .single-blog-header .blog-intro .news-intro {
@@ -12870,13 +12892,6 @@ header .navbar-nav .nav-link:hover, header .navbar-nav .nav-link.active {
   padding: 40px 0 60px;
 }
 
-.page-content .service-title {
-  font-size: 4.4rem;
-  line-height: 5rem;
-  font-family: "Lato", sans-serif;
-  font-weight: 400;
-}
-
 .page-content .service-content {
   font-size: 1.8rem;
   line-height: 2.6rem;
@@ -12886,6 +12901,52 @@ header .navbar-nav .nav-link:hover, header .navbar-nav .nav-link.active {
   .page-content {
     padding: 170px 0 110px;
   }
+  .blog-title {
+    font-size: 4.4rem;
+    line-height: 5rem;
+  }
+}
+
+.contact-form-section {
+  padding: 45px 0 70px;
+}
+
+.contact-form-section .contact-title {
+  font-size: 3rem;
+  line-height: 4.5rem;
+  letter-spacing: 5px;
+}
+
+.contact-form-section .form-control {
+  border: none;
+  background-color: rgba(37, 61, 97, 0.02);
+  padding: 1.2rem 2rem;
+  height: auto;
+}
+
+.contact-form-section .form-control::placeholder {
+  font-weight: 300;
+  font-size: 1.4rem;
+  line-height: 2.5rem;
+  letter-spacing: -0.23px;
+  color: #1E1E1E;
+}
+
+@media (min-width: 992px) {
+  .contact-form-section {
+    padding: 102px 0 110px;
+  }
+}
+
+.section-info {
+  padding: 6.3rem 0 6rem;
+  margin-bottom: 8rem;
+}
+
+.section-info p {
+  font-size: 2.4rem;
+  line-height: 2.5rem;
+  margin-bottom: 1.5rem;
 }
 
 footer .social {
