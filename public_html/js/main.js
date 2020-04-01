@@ -26,7 +26,6 @@ $(document).ready(function () {
     animation();
     $(window).scroll(function () {
         animation();
-        animateHeader();
     });
     
     if($('.team-slider').length > 0){
