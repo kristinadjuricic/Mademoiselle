@@ -1,2 +1,10 @@
-
+.lead-section{
+    .btn-general{
+        border: 1px solid $white;
+        color: $white;
+        &:hover{
+            color: $gray-900;
+        }
+    }
+}
 

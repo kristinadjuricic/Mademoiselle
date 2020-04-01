@@ -54,6 +54,11 @@ p{
         background-color: $primary;
     }
 }
+.invalid-feedback{
+    p{
+        font-weight: $font-weight-normal;
+    }
+}
 
 
 

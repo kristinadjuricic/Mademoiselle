@@ -1,5 +1,5 @@
 .single-blog-header{
-    padding: 40px 0 57px;
+    padding: 4rem 0 5.7rem;
     .blog-publishing{
         background-color: transparent;
         font-size: 1.4rem;
@@ -48,13 +48,18 @@
 }
 @media(min-width:992px){
     .single-blog-header{
-        padding: 169px 0 97px;
+        padding: 110px 0 97px;
     }
     .blog-intro{
         .blog-title{
             font-size: 4.4rem;
             line-height: 5rem
         }
+    }
+}
+@media(min-width:1200px){
+    .single-blog-header{
+        padding: 169px 0 97px;
     }
 }
 
