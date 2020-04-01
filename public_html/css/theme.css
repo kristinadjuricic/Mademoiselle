@@ -12810,12 +12810,12 @@ header .navbar-nav .nav-link:hover, header .navbar-nav .nav-link.active {
 
 .single-blog-header .blog-publishing .blog-category {
   font-weight: bold;
-  margin-right: 1rem;
+  padding-right: 1rem;
 }
 
 .single-blog-header .blog-publishing .blog-date-published {
   font-style: italic;
-  margin-left: 1rem;
+  padding-left: 1rem;
 }
 
 .single-blog-header .blog-intro .news-intro {
@@ -12970,7 +12970,7 @@ footer .social {
 }
 
 footer .social .fab {
-  margin: 0 1.5rem;
+  padding: 0 1.5rem;
 }
 
 footer .copyright {
