@@ -5,16 +5,14 @@
         line-height: 5rem;
         font-family: $lato;
     }
-    .lead-intro{
-        font-size: 2rem;
-        line-height: 2.8rem;
-    }
-    .about-content{
-        font-size: 1.8rem;
-        line-height: 2.6rem;
-    }
-    .about-img{
-        margin-bottom: 6.6rem;
+    .about-page-content{
+        p{
+            font-size: 1.8rem;
+            line-height: 2.6rem;  
+        }
+        img{
+            margin-bottom: 6.6rem;
+        }
     }
 }
 .search{

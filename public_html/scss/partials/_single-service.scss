@@ -1,8 +1,10 @@
 .page-content{
     padding: 4rem 0 6rem;
     .service-content{
-        font-size: 1.8rem;
-        line-height: 2.6rem;
+        p{
+            font-size: 1.8rem;
+            line-height: 2.6rem;
+        }
     }
 }
 @media(min-width:992px){
@@ -10,9 +12,9 @@
         padding: 110px 0 70px;
     }
     .blog-title{
-            font-size: 4.4rem;
-            line-height: 5rem
-        }
+        font-size: 4.4rem;
+        line-height: 5rem
+    }
 }
 @media(min-width:1200px){
     .page-content{

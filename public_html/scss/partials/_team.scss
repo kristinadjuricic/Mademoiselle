@@ -3,7 +3,7 @@
 }
 .team-member{
     border: 1px solid $primary;
-    padding: 54px 0;
+    padding-bottom: 5.2rem;
     .team-bio{
         .team-name{
             font-size: 3rem;
@@ -21,14 +21,19 @@
     .owl-dots{
         position: absolute;
         bottom: 2%;
-        right: 40%;
+        right: 45%;
+    }
+}
+@media(min-width:768px){
+    .team-member{
+        padding: 5.4rem 0;
     }
 }
 @media(min-width:992px){
 .team-slider{
     .owl-dots{
-        bottom: 12%;
-        right: 35%;
+        bottom: 14%;
+        right: 36%;
     }
 }
 }

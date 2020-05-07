@@ -12714,7 +12714,7 @@ header .navbar-nav .nav-link:hover, header .navbar-nav .nav-link.active {
 
 .team-member {
   border: 1px solid #ECD9D9;
-  padding: 54px 0;
+  padding-bottom: 5.2rem;
 }
 
 .team-member .team-bio .team-name {
@@ -12735,13 +12735,19 @@ header .navbar-nav .nav-link:hover, header .navbar-nav .nav-link.active {
 .team-slider .owl-dots {
   position: absolute;
   bottom: 2%;
-  right: 40%;
+  right: 45%;
+}
+
+@media (min-width: 768px) {
+  .team-member {
+    padding: 5.4rem 0;
+  }
 }
 
 @media (min-width: 992px) {
   .team-slider .owl-dots {
-    bottom: 12%;
-    right: 35%;
+    bottom: 14%;
+    right: 36%;
   }
 }
 
@@ -12755,17 +12761,12 @@ header .navbar-nav .nav-link:hover, header .navbar-nav .nav-link.active {
   font-family: "Lato", sans-serif;
 }
 
-.about .lead-intro {
-  font-size: 2rem;
-  line-height: 2.8rem;
-}
-
-.about .about-content {
+.about .about-page-content p {
   font-size: 1.8rem;
   line-height: 2.6rem;
 }
 
-.about .about-img {
+.about .about-page-content img {
   margin-bottom: 6.6rem;
 }
 
@@ -12823,7 +12824,7 @@ header .navbar-nav .nav-link:hover, header .navbar-nav .nav-link.active {
   line-height: 2.8rem;
 }
 
-.single-blog-content .news-content {
+.single-blog-content .news-content p {
   font-size: 1.8rem;
   line-height: 2.6rem;
   text-align: justify;
@@ -12869,7 +12870,7 @@ header .navbar-nav .nav-link:hover, header .navbar-nav .nav-link.active {
   padding: 4rem 0 6rem;
 }
 
-.page-content .service-content {
+.page-content .service-content p {
   font-size: 1.8rem;
   line-height: 2.6rem;
 }
